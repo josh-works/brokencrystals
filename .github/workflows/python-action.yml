@@ -1,5 +1,5 @@
 name: Python Action Demo
-run-name: ${{ github.actor }} is installing ruby 💎
+run-name: ${{ github.actor }} is installing python 🐍
 on: [push]
 jobs:
   Install-Python-If-Needed:
