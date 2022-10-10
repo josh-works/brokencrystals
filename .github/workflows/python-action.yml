@@ -1,0 +1,11 @@
+name: Python Action Demo
+run-name: ${{ github.actor }} is installing ruby 💎
+on: [push]
+jobs:
+  Install-Python-If-Needed:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: python --version
+      # install python
+      - run: sudo apt install python3
